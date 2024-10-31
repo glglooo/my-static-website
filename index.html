@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to tjj's Website</h1>
+    </header>
+    <main>
+        <p>This is a simple 笔记 website.
+
+
+
+            Schauder基是赋范空间中的一种基，用于表示向量的无穷线性组合。
+            
+            ### Schauder基的定义：
+            
+            在赋范空间 \( X \) 中，序列 \(\{e_n\}\) 是一个Schauder基，如果对于每个 \( x \in X \)，存在唯一的数列 \(\{a_n\}\)，使得：
+            
+            \[
+            x = \sum_{n=1}^{\infty} a_n e_n
+            \]
+            
+            并且部分和 \(\sum_{n=1}^{N} a_n e_n\) 收敛到 \( x \)。
+            
+            ### 理解Schauder基：
+            
+            1. **无穷线性组合**：
+               - Schauder基允许用无穷多个基向量的线性组合来表示空间中的每个向量。
+            
+            2. **唯一性**：
+               - 对于每个向量 \( x \)，表示它的系数 \(\{a_n\}\) 是唯一的。
+            
+            3. **与Hamel基的区别**：
+               - Hamel基要求有限线性组合，而Schauder基允许无穷线性组合。
+               - 在有限维空间中，Schauder基和Hamel基是相同的。
+            
+            4. **例子**：
+               - 在 \( l^p \) 空间中，标准基 \(\{e_n\}\) 是一个Schauder基。
+            
+            ### 应用：
+            
+            - Schauder基在分析中用于研究无穷维空间，特别是在函数逼近和数值分析中。
+            
+            Schauder基提供了一种在无穷维空间中表示和处理向量的有效方法。</p>
+    </main>
+    <footer>
+        <p>© 2023 My Static Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
